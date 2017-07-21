@@ -12,7 +12,11 @@ defmodule UsvcOtisak.Application do
     children = [
       # Starts a worker by calling: Ppp.Worker.start_link(arg1, arg2, arg3)
       # worker(Ppp.Worker, [arg1, arg2, arg3]),
-      Plug.Adapters.Cowboy.child_spec(:http, UsvcOtisak.Router, [], [port: 4000]),
+      worker(UsvcOtisak.QuestionData, []),
+      worker(UsvcOtisak.UserData, []),
+      worker(UsvcOtisak.AnswerData, []),
+      worker(UsvcOtisak.ScoreData, []),
+      Plug.Adapters.Cowboy.child_spec(:http, UsvcOtisak.Router, [], [port: 4000])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html
@@ -21,4 +25,3 @@ defmodule UsvcOtisak.Application do
     Supervisor.start_link(children, opts)
   end
 end
-
