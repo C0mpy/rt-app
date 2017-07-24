@@ -16,8 +16,12 @@ defmodule UsvcOtisak.UserService do
   end
 
   def get_score(username) do
-    user_id = UsvcOtisak.UserData.get_user_id(username)
-    UsvcOtisak.ScoreData.get_score(user_id)
+    case UsvcOtisak.UserData.get_user_id(username) do
+      {:ok, score} ->
+        score
+      _ ->
+        "no user with provided id exists, register first"
+    end
   end
 
   def remove_all_data() do

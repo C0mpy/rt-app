@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   usvc_otisak:
-    image: renderedtext/usvc_otisak:<%= image_tag %>
+    image: renderedtext/usvc_otisak:a9a7591-
     ports:
     - "4000:4000"
     environment:

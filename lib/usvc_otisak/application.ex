@@ -16,6 +16,7 @@ defmodule UsvcOtisak.Application do
       worker(UsvcOtisak.UserData, []),
       worker(UsvcOtisak.AnswerData, []),
       worker(UsvcOtisak.ScoreData, []),
+      #worker(UsvcOtisak.Repo, []),
       Plug.Adapters.Cowboy.child_spec(:http, UsvcOtisak.Router, [], [port: 4000])
     ]
 

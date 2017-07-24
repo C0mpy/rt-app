@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: usvc-otisak
+spec:
+  type: NodePort
+#  type: LoadBalancer
+  selector:
+    app: usvc-otisak
+  ports:
+    - protocol: TCP
+      port: 4000
+
+---
+
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: usvc-otisak
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: usvc-otisak-pod
+      labels:
+        app: usvc-otisak
+    spec:
+      containers:
+      - name: usvc-otisak
+        image: renderedtext/usvc_otisak:a9a7591-
+        ports:
+        - containerPort: 4000
+        livenessProbe:
+          httpGet:
+            path: /health_check/ping
+            port: 4000
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+      imagePullSecrets:
+      - name: dockerhub-secrets

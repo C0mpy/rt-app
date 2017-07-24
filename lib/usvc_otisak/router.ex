@@ -17,7 +17,12 @@ defmodule UsvcOtisak.Router do
   end
 
   post "/user" do
-    send_resp(conn, 200, UsvcOtisak.UserService.register_user(Map.get(conn.params, "username")))
+    username = Map.get(conn.params, "username")
+    if username == nil || username == "" do
+      send_resp(conn, 404, "bad parameters")
+    else
+      send_resp(conn, 200, UsvcOtisak.UserService.register_user(username))
+    end
   end
 
   get "/question" do
@@ -25,16 +30,35 @@ defmodule UsvcOtisak.Router do
   end
 
   post "/answer" do
-    {question_id, _} = Integer.parse(Map.get(conn.params, "question_id"))
-    {answer, _} = Integer.parse(Map.get(conn.params, "answer"))
+    question_id = Map.get(conn.params, "question_id")
+    answer = Map.get(conn.params, "answer")
     username = Map.get(conn.params, "username")
-    send_resp(conn, 200, UsvcOtisak.QuestionService.add_answer(question_id, answer, username))
+
+    if question_id == nil || answer == nil || username == nil || username == "" do
+      send_resp(conn, 404, "bad parameters")
+    else
+      {question_id, _} = Integer.parse(question_id)
+      {answer, _} = Integer.parse(answer)
+      send_resp(conn, 200, UsvcOtisak.QuestionService.add_answer(question_id, answer, username))
+    end
+
   end
 
   get "/score" do
-    send_resp(conn, 200, UsvcOtisak.UserService.get_score(conn.query_params["username"]))
+    username = conn.query_params["username"]
+    if username == nil || username == "" do
+      send_resp(conn, 404, "bad parameters")
+    else
+      send_resp(conn, 200, UsvcOtisak.UserService.get_score(conn.query_params["username"]))
+    end
   end
 
+  get _ do
+    send_resp(conn, 404, "bad path")
+  end
 
+  post _ do
+    send_resp(conn, 404, "bad path")
+  end
 
 end

@@ -41,8 +41,7 @@ defmodule UsvcOtisak.ScoreData do
   end
 
   def handle_call({:get_score, user_id}, _, state) do
-    {:ok, score} = Enum.fetch(state, user_id)
-    {:reply, score, state}
+    {:reply, Enum.fetch(state, user_id)}
   end
 
   def handle_call({:true_answer, user_id}, _, state) do
