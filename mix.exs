@@ -16,9 +16,7 @@ defmodule UsvcOtisak.Mixfile do
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
 
-
-    [extra_applications: [:logger],
-    #[extra_applications: [:logger, :postgrex, :ecto],
+     [extra_applications: [:logger, :postgrex, :ecto],
      mod: {UsvcOtisak.Application, []}]
   end
 

@@ -4,11 +4,6 @@ services:
     image: renderedtext/usvc_otisak:<%= image_tag %>
     ports:
     - "4000:4000"
-    environment:
-    - DBPATH="0.0.0.0"
-    - DBPORT=5432
 
   postgrex:
     image: postgres:latest
-    ports:
-    - "5432:5432"

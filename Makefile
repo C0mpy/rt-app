@@ -15,12 +15,17 @@ INTERACTIVE_SESSION=\
           -e HOME=/home/developer/ \
           --user developer \
           --rm \
+					--network=host \
           --workdir="/home/developer/prj" \
           -it renderedtext/elixir:latest
 
 
 console:
+	# docker run -p 4000:4000 $(INTERACTIVE_SESSION)  /bin/bash
 	docker run -p 4000:4000 $(INTERACTIVE_SESSION)  /bin/bash
+
+start_postgres:
+	docker run -d -p 5432:5432 --rm --network=host --name postgres postgres
 
 image.build:
 	docker build --cache-from $(IMAGE_LATEST) -t $(IMAGE) .

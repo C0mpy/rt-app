@@ -7,20 +7,19 @@ defmodule UsvcOtisak.UserService do
 
 
   def get_users() do
-    UsvcOtisak.UserData.get_users()
+    UsvcOtisak.UserQueries.get_all()
   end
 
   def register_user(username) do
-    UsvcOtisak.UserData.register_user(username)
-    UsvcOtisak.ScoreData.new_score()
+    UsvcOtisak.UserQueries.get_by_username(username)
+    UsvcOtisak.UserQueries.create(UsvcOtisak.User.changeset(%UsvcOtisak.User{}, %{username: username, score: 0}))
   end
 
   def get_score(username) do
-    case UsvcOtisak.UserData.get_user_id(username) do
-      {:ok, score} ->
-        score
-      _ ->
-        "no user with provided id exists, register first"
+    if UsvcOtisak.UserQueries.get_by_username(username) != nil do
+      UsvcOtisak.UserQueries.get_score(username)
+    else
+      "username doesn't exist, register fist"
     end
   end
 

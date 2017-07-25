@@ -2,15 +2,15 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-#config :usvc_otisak, ecto_repos: [UsvcOtisak.Repo]
+config :usvc_otisak, ecto_repos: [UsvcOtisak.Repo]
 
-#config :usvc_otisak, UsvcOtisak.Repo,
-	#adapter: Ecto.Adapters.Postgres,
-	#database: "postgres",
-	#username: "postgres",
-  #password: "postgres"
-  #port: System.get_env("DBPORT"),
-  #host: System.get_env("DBPATH")
+config :usvc_otisak, UsvcOtisak.Repo,
+	adapter: Ecto.Adapters.Postgres,
+	database: "postgres",
+	username: "postgres",
+  password: "postgres",
+  hostname: "localhost",
+  port: "5432"
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this

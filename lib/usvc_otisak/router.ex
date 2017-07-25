@@ -21,12 +21,13 @@ defmodule UsvcOtisak.Router do
     if username == nil || username == "" do
       send_resp(conn, 404, "bad parameters")
     else
-      send_resp(conn, 200, UsvcOtisak.UserService.register_user(username))
+      UsvcOtisak.UserService.register_user(username)
+      send_resp(conn, 200, "user successfully registered")
     end
   end
 
   get "/question" do
-    send_resp(conn, 200, inspect(UsvcOtisak.QuestionService.get_questions()))
+    send_resp(conn, 200, inspect(UsvcOtisak.QuestionQueries.get_all()))
   end
 
   post "/answer" do
@@ -37,11 +38,17 @@ defmodule UsvcOtisak.Router do
     if question_id == nil || answer == nil || username == nil || username == "" do
       send_resp(conn, 404, "bad parameters")
     else
-      {question_id, _} = Integer.parse(question_id)
-      {answer, _} = Integer.parse(answer)
-      send_resp(conn, 200, UsvcOtisak.QuestionService.add_answer(question_id, answer, username))
+      question_id =
+      if String.valid?(question_id) do
+        String.to_integer(question_id)
+      end
+      answer =
+      if String.valid?(answer) do
+        String.to_integer(answer)
+      end
+      result = UsvcOtisak.QuestionService.add_answer(question_id, answer, username)
+      send_resp(conn, 200, "#{result}\n")
     end
-
   end
 
   get "/score" do
@@ -49,7 +56,9 @@ defmodule UsvcOtisak.Router do
     if username == nil || username == "" do
       send_resp(conn, 404, "bad parameters")
     else
-      send_resp(conn, 200, UsvcOtisak.UserService.get_score(conn.query_params["username"]))
+      result = UsvcOtisak.UserService.get_score(conn.query_params["username"])
+      IO.puts(inspect(result))
+      send_resp(conn, 200, "your score is: #{result}\n")
     end
   end
 

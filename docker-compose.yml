@@ -1,14 +1,9 @@
 version: '3.2'
 services:
   usvc_otisak:
-    image: renderedtext/usvc_otisak:a9a7591-
+    image: renderedtext/usvc_otisak:b7e2479-
     ports:
     - "4000:4000"
-    environment:
-    - DBPATH="0.0.0.0"
-    - DBPORT=5432
 
   postgrex:
     image: postgres:latest
-    ports:
-    - "5432:5432"

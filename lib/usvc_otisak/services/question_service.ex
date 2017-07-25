@@ -11,13 +11,18 @@ defmodule UsvcOtisak.QuestionService do
 
   def add_answer(question_id, answer, username) do
 
-    user_id = UsvcOtisak.UserData.get_user_id(username)
-
-    true_answer = UsvcOtisak.AnswerData.get_answer(question_id)
-    if true_answer == answer do
-      UsvcOtisak.ScoreData.true_answer(user_id)
+    if UsvcOtisak.UserQueries.get_by_username(username) != nil do
+      true_answer = UsvcOtisak.AnswerQueries.get_by_id(question_id)
+      current_score = UsvcOtisak.UserQueries.get_score(username)
+      if true_answer.data == answer do
+        UsvcOtisak.UserQueries.set_score(username, current_score + 1)
+        "correct answer!"
+      else
+        UsvcOtisak.UserQueries.set_score(username, current_score - 1)
+        "false answer!"
+      end
     else
-      UsvcOtisak.ScoreData.false_answer(user_id)
+      "username doesn't exist, register fist"
     end
 
   end

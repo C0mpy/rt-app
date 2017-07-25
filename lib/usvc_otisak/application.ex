@@ -12,11 +12,8 @@ defmodule UsvcOtisak.Application do
     children = [
       # Starts a worker by calling: Ppp.Worker.start_link(arg1, arg2, arg3)
       # worker(Ppp.Worker, [arg1, arg2, arg3]),
-      worker(UsvcOtisak.QuestionData, []),
-      worker(UsvcOtisak.UserData, []),
-      worker(UsvcOtisak.AnswerData, []),
-      worker(UsvcOtisak.ScoreData, []),
-      #worker(UsvcOtisak.Repo, []),
+
+      worker(UsvcOtisak.Repo, []),
       Plug.Adapters.Cowboy.child_spec(:http, UsvcOtisak.Router, [], [port: 4000])
     ]
 

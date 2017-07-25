@@ -1,0 +1,7 @@
+UsvcOtisak.UserQueries.create(UsvcOtisak.User.changeset(%UsvcOtisak.User{}, %{username: "nemanja", score: 0}))
+UsvcOtisak.AnswerQueries.create(UsvcOtisak.Answer.changeset(%UsvcOtisak.Answer{}, %{data: 10}))
+UsvcOtisak.AnswerQueries.create(UsvcOtisak.Answer.changeset(%UsvcOtisak.Answer{}, %{data: 3}))
+UsvcOtisak.AnswerQueries.create(UsvcOtisak.Answer.changeset(%UsvcOtisak.Answer{}, %{data: 15}))
+UsvcOtisak.QuestionQueries.create(UsvcOtisak.Question.changeset(%UsvcOtisak.Question{}, %{data: "what is 5 times 2 ?", answer_id: 1}))
+UsvcOtisak.QuestionQueries.create(UsvcOtisak.Question.changeset(%UsvcOtisak.Question{}, %{data: "what is 4 minus 1 ?", answer_id: 2}))
+UsvcOtisak.QuestionQueries.create(UsvcOtisak.Question.changeset(%UsvcOtisak.Question{}, %{data: "what is 7 plus 8 ?", answer_id: 3}))
