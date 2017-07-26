@@ -2,7 +2,7 @@ defmodule UsvcOtisak.Router do
   import Plug.Conn
   require Logger
   use Plug.Router
-
+  import UsvcOtisak.Validate
 
   plug Plug.Logger
   plug :match
@@ -17,12 +17,13 @@ defmodule UsvcOtisak.Router do
   end
 
   post "/user" do
-    username = Map.get(conn.params, "username")
-    if username == nil || username == "" do
-      send_resp(conn, 404, "bad parameters")
+    with {:ok, username} <- Map.fetch(conn.params, "username"),
+         username <- "#{username}", # ova linija da bih svaku prosledjenu vrednost za username pretvorio u string, npr broj:  5
+         :ok <- UsvcOtisak.UserService.register_user(username) do
+           send_resp(conn, 200, "user successfully registered\n")
     else
-      UsvcOtisak.UserService.register_user(username)
-      send_resp(conn, 200, "user successfully registered")
+      :error -> send_resp(conn, 404, "parameter 'username' must be provided\n")
+      {:error, reason} -> send_resp(conn, 404, reason)
     end
   end
 
@@ -31,42 +32,28 @@ defmodule UsvcOtisak.Router do
   end
 
   post "/answer" do
-    question_id = Map.get(conn.params, "question_id")
-    answer = Map.get(conn.params, "answer")
-    username = Map.get(conn.params, "username")
-
-    if question_id == nil || answer == nil || username == nil || username == "" do
-      send_resp(conn, 404, "bad parameters")
+    with {:ok, username} <- validate_username(Map.get(conn.params, "username")),
+         {:ok, question_id} <- validate_question_id(Map.get(conn.params, "question_id")),
+         {:ok, answer} <- validate_answer(Map.get(conn.params, "answer")),
+         {:ok, result} <- UsvcOtisak.QuestionService.add_answer(username, question_id, answer)
+    do
+      send_resp(conn, 200, result)
     else
-      question_id =
-      if String.valid?(question_id) do
-        String.to_integer(question_id)
-      end
-      answer =
-      if String.valid?(answer) do
-        String.to_integer(answer)
-      end
-      result = UsvcOtisak.QuestionService.add_answer(question_id, answer, username)
-      send_resp(conn, 200, "#{result}\n")
+      {:error, reason} -> send_resp(conn, 404, reason)
     end
   end
 
   get "/score" do
-    username = conn.query_params["username"]
-    if username == nil || username == "" do
-      send_resp(conn, 404, "bad parameters")
+    with {:ok, username} <- validate_username(conn.query_params["username"]),
+      {:ok, result} <- UsvcOtisak.UserService.get_score(username)
+    do
+      send_resp(conn, 200, result)
     else
-      result = UsvcOtisak.UserService.get_score(conn.query_params["username"])
-      IO.puts(inspect(result))
-      send_resp(conn, 200, "your score is: #{result}\n")
+      {:error, reason} -> send_resp(conn, 404, reason)
     end
   end
 
-  get _ do
-    send_resp(conn, 404, "bad path")
-  end
-
-  post _ do
+  match _ do
     send_resp(conn, 404, "bad path")
   end
 

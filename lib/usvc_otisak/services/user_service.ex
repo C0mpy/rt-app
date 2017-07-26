@@ -11,21 +11,19 @@ defmodule UsvcOtisak.UserService do
   end
 
   def register_user(username) do
-    UsvcOtisak.UserQueries.get_by_username(username)
-    UsvcOtisak.UserQueries.create(UsvcOtisak.User.changeset(%UsvcOtisak.User{}, %{username: username, score: 0}))
+    if UsvcOtisak.UserQueries.get_by_username(username) != nil do
+      {:error, "parameter 'username' with value '#{username}' already taken\n"}
+    else
+      :ok
+    end
   end
 
   def get_score(username) do
     if UsvcOtisak.UserQueries.get_by_username(username) != nil do
-      UsvcOtisak.UserQueries.get_score(username)
+      {:ok, "your score is: #{UsvcOtisak.UserQueries.get_score(username)}\n"}
     else
-      "username doesn't exist, register fist"
+      {:error, "username doesn't exist, register fist\n"}
     end
-  end
-
-  def remove_all_data() do
-    UsvcOtisak.UserData.remove_all_users()
-    UsvcOtisak.ScoreData.remove_all_scores()
   end
 
 end
