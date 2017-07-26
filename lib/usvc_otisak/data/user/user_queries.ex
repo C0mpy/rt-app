@@ -8,7 +8,7 @@ defmodule UsvcOtisak.UserQueries do
   end
 
   def create(user) do
-    Repo.insert!(user)
+    {:ok, Repo.insert!(user)}
   end
 
   def get_by_username(username) do

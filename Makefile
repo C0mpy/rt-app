@@ -12,7 +12,7 @@ IMAGE_LATEST=$(REPO):latest
 INTERACTIVE_SESSION=\
           -v $$PWD/home_dir:/home/developer \
           -v $$PWD:/home/developer/prj \
-          -e HOME=/home/developer/ \
+          -e DB_URL="ecto://postgres:postgres@localhost/postgres" \
           --user developer \
           --rm \
 					--network=host \

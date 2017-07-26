@@ -6,11 +6,7 @@ config :usvc_otisak, ecto_repos: [UsvcOtisak.Repo]
 
 config :usvc_otisak, UsvcOtisak.Repo,
 	adapter: Ecto.Adapters.Postgres,
-	database: "postgres",
-	username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  port: "5432"
+	url: {:system, "DB_URL"}
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this

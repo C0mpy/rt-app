@@ -32,4 +32,28 @@ defmodule UsvcOtisak.Validate do
     end
   end
 
+  def validate_user_exists(username) do
+    with nil <- UsvcOtisak.UserQueries.get_by_username(username) do
+      {:error, "username doesn't exist, register fist"}
+    else
+      user -> {:ok, user}
+    end
+  end
+
+  def validate_answer_exists(question_id) do
+    with nil <- UsvcOtisak.AnswerQueries.get_by_id(question_id) do
+      {:error, "you answered non-existant question, please provide correct question_id"}
+    else
+      answer ->  {:ok, answer.data}
+    end
+  end
+
+  def validate_answer(answer, true_answer) do
+    if answer == true_answer do
+      {:ok, :true}
+    else
+      {:ok, :false}
+    end
+  end
+
 end

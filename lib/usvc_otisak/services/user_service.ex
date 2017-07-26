@@ -4,17 +4,19 @@ defmodule UsvcOtisak.UserService do
   Module that acts as service for delegating calls to data persistence layers
   Provides functions for fetching data concerning a user
   """
-
+  import UsvcOtisak.Validate
 
   def get_users() do
     UsvcOtisak.UserQueries.get_all()
   end
 
   def register_user(username) do
-    if UsvcOtisak.UserQueries.get_by_username(username) != nil do
-      {:error, "parameter 'username' with value '#{username}' already taken\n"}
+    with {:error, _} <- validate_user_exists(username),
+         {:ok, _} <- UsvcOtisak.UserQueries.create(UsvcOtisak.User.changeset(%UsvcOtisak.User{}, %{username: username, score: 0}))
+    do
+      {:ok, "user successfully registered\n"}
     else
-      :ok
+      _ -> {:error, "username with value '#{username}' already taken\n"}
     end
   end
 
@@ -25,5 +27,4 @@ defmodule UsvcOtisak.UserService do
       {:error, "username doesn't exist, register fist\n"}
     end
   end
-
 end

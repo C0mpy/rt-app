@@ -224,3 +224,66 @@ iex -S mix
 iex -S mix
 iex -S mix
 iex -S mix
+psql
+iex -S mix
+iex -S mix
+echo $DB_URL
+mix ecto.migrate
+mix priv/repo/seed.exs 
+mix run priv/repo/seed.exs 
+mix test
+mix test
+mix test
+mix test
+mix test
+mix test
+mix test
+mix test
+mix test
+iex -S mix
+mix test
+iex -S mix
+mix test
+iex -S mix
+iex -S mix
+iex -S mix
+mix test
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+mix test
+mix test
+mix test
+mix test
+mix test
+mix test
+iex -S mix
+iex -S mix
+mix compile
+mix compile
+mix test
+mix test
+iex -S mix
+iex -S mix
+mix test
+mix test
+mix test
+mix ecto.migrate
+mix run priv/repo/seed.exs 
+mix test
+mix test
+mix test
+psql
+mix ecto.migrate
+mix run priv/repo/seed.exs 
+mix test
+mix test
+mix test
+mix ecto.migrate
+mix run priv/repo/seed.exs 
+mix test

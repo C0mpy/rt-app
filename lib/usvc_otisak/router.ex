@@ -18,9 +18,10 @@ defmodule UsvcOtisak.Router do
 
   post "/user" do
     with {:ok, username} <- Map.fetch(conn.params, "username"),
-         username <- "#{username}", # ova linija da bih svaku prosledjenu vrednost za username pretvorio u string, npr broj:  5
-         :ok <- UsvcOtisak.UserService.register_user(username) do
-           send_resp(conn, 200, "user successfully registered\n")
+         username <- "#{username}",
+         {:ok, _} <- UsvcOtisak.UserService.register_user(username)
+    do
+      send_resp(conn, 200, "user successfully registered\n")
     else
       :error -> send_resp(conn, 404, "parameter 'username' must be provided\n")
       {:error, reason} -> send_resp(conn, 404, reason)
