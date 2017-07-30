@@ -1,0 +1,6 @@
+version: '3.2'
+services:
+  question_server:
+    image: renderedtext/question_server:<%= image_tag %>
+    ports:
+    - "50051:50051"

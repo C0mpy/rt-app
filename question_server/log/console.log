@@ -1,0 +1,816 @@
+2017-07-28 07:58:22.264 [error] <0.2155.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.2160.0> exit with reason normal in context child_terminated
+2017-07-28 07:58:22.288 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 07:58:22.290 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 07:58:22.290 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 07:58:22.292 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 07:58:22.292 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 07:58:22.294 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 07:58:22.299 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 07:58:22.305 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 07:58:22.305 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 07:58:22.310 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 07:58:22.310 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 07:58:22.312 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 07:58:22.313 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 07:58:22.314 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 07:58:22.316 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 07:58:22.324 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 07:58:22.324 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 07:58:22.326 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 07:58:22.326 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 08:00:15.727 [warning] <0.32.0> lager_error_logger_h dropped 67 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 08:01:12.227 [warning] <0.32.0> lager_error_logger_h dropped 52 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 08:35:03.297 [error] <0.2148.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.2153.0> exit with reason normal in context child_terminated
+2017-07-28 08:35:03.318 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 08:35:03.320 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 08:35:03.320 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 08:35:03.322 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 08:35:03.322 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 08:35:03.323 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 08:35:03.329 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 08:35:03.332 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 08:35:03.332 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 08:35:03.338 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 08:35:03.338 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 08:35:03.339 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 08:35:03.341 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 08:35:03.342 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 08:35:03.343 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 08:35:03.352 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 08:35:03.352 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 08:35:03.354 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 08:35:03.354 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 08:39:41.503 [error] <0.187.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.192.0> exit with reason normal in context child_terminated
+2017-07-28 08:39:41.520 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 08:39:41.522 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 08:39:41.522 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 08:39:41.524 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 08:39:41.524 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 08:39:41.526 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 08:39:41.530 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 08:39:41.532 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 08:39:41.532 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 08:39:41.539 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 08:39:41.539 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 08:39:41.540 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 08:39:41.542 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 08:39:41.543 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 08:39:41.544 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 08:39:41.550 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 08:39:41.551 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 08:39:41.552 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 08:39:41.554 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 08:41:39.703 [error] <0.187.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.192.0> exit with reason normal in context child_terminated
+2017-07-28 08:41:39.719 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 08:41:39.722 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 08:41:39.722 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 08:41:39.724 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 08:41:39.724 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 08:41:39.725 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 08:41:39.729 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 08:41:39.731 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 08:41:39.731 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 08:41:39.738 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 08:41:39.738 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 08:41:39.739 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 08:41:39.741 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 08:41:39.742 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 08:41:39.743 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 08:41:39.749 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 08:41:39.749 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 08:41:39.751 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 08:41:39.752 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 08:42:47.638 [error] <0.273.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.278.0> exit with reason normal in context child_terminated
+2017-07-28 08:42:47.657 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 08:42:47.660 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 08:42:47.660 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 08:42:47.662 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 08:42:47.662 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 08:42:47.664 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 08:42:47.668 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 08:42:47.669 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 08:42:47.669 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 08:42:47.675 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 08:42:47.675 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 08:42:47.677 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 08:42:47.678 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 08:42:47.679 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 08:42:47.680 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 08:42:47.687 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 08:42:47.687 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 08:42:47.688 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 08:42:47.691 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 08:42:47.691 [info] <0.33.0> Application question_server started on node nonode@nohost
+2017-07-28 09:02:08.159 [error] <0.273.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.278.0> exit with reason normal in context child_terminated
+2017-07-28 09:02:08.178 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 09:02:08.181 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 09:02:08.181 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 09:02:08.183 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 09:02:08.183 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 09:02:08.185 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 09:02:08.189 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 09:02:08.192 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 09:02:08.193 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 09:02:08.198 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 09:02:08.198 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 09:02:08.200 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 09:02:08.201 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 09:02:08.202 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 09:02:08.203 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 09:02:08.210 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 09:02:08.210 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 09:02:08.212 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 09:02:08.214 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 09:20:35.303 [error] <0.201.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.206.0> exit with reason normal in context child_terminated
+2017-07-28 09:20:35.319 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 09:20:35.323 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 09:20:35.323 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 09:20:35.324 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 09:20:35.325 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 09:20:35.326 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 09:20:35.330 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 09:20:35.332 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 09:20:35.332 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 09:20:35.339 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 09:20:35.339 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 09:20:35.341 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 09:20:35.342 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 09:20:35.344 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 09:20:35.345 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 09:20:35.352 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 09:20:35.352 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 09:20:35.353 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 09:20:35.356 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 09:26:03.545 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 09:26:03.561 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 09:26:03.565 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 09:26:03.565 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 09:26:03.566 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 09:26:03.567 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 09:26:03.568 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 09:26:03.572 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 09:26:03.575 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 09:26:03.575 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 09:26:03.581 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 09:26:03.582 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 09:26:03.583 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 09:26:03.585 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 09:26:03.586 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 09:26:03.588 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 09:26:03.595 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 09:26:03.595 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 09:26:03.596 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 09:26:03.599 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 09:41:00.789 [error] <0.178.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.183.0> exit with reason normal in context child_terminated
+2017-07-28 09:41:00.806 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 09:41:00.809 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 09:41:00.809 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 09:41:00.811 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 09:41:00.811 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 09:41:00.813 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 09:41:00.816 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 09:41:00.818 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 09:41:00.818 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 09:41:00.824 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 09:41:00.824 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 09:41:00.826 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 09:41:00.827 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 09:41:00.828 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 09:41:00.829 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 09:41:00.836 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 09:41:00.836 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 09:41:00.837 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 09:41:00.839 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 09:41:10.690 [error] <0.178.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.183.0> exit with reason normal in context child_terminated
+2017-07-28 09:41:10.709 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 09:41:10.712 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 09:41:10.712 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 09:41:10.713 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 09:41:10.714 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 09:41:10.715 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 09:41:10.719 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 09:41:10.721 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 09:41:10.722 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 09:41:10.728 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 09:41:10.728 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 09:41:10.729 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 09:41:10.730 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 09:41:10.732 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 09:41:10.733 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 09:41:10.739 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 09:41:10.739 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 09:41:10.741 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 09:41:10.743 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 10:29:31.081 [error] <0.187.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.192.0> exit with reason normal in context child_terminated
+2017-07-28 10:29:31.097 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 10:29:31.100 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 10:29:31.100 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 10:29:31.102 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 10:29:31.102 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 10:29:31.103 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 10:29:31.108 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 10:29:31.110 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 10:29:31.110 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 10:29:31.117 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 10:29:31.117 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 10:29:31.118 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 10:29:31.120 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 10:29:31.121 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 10:29:31.123 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 10:29:31.134 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 10:29:31.134 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 10:29:31.136 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 10:29:31.138 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 10:55:15.734 [error] <0.273.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.278.0> exit with reason normal in context child_terminated
+2017-07-28 10:55:15.752 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 10:55:15.756 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 10:55:15.756 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 10:55:15.758 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 10:55:15.758 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 10:55:15.758 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 10:55:22.172 [error] <0.187.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.192.0> exit with reason normal in context child_terminated
+2017-07-28 10:55:22.189 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 10:55:22.193 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 10:55:22.193 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 10:55:22.194 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 10:55:22.194 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 10:55:22.194 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 12:03:13.908 [error] <0.2150.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.2155.0> exit with reason normal in context child_terminated
+2017-07-28 12:03:13.936 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 12:03:13.938 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 12:03:13.938 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 12:03:13.940 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 12:03:13.940 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 12:03:13.942 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 12:03:13.949 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 12:03:13.952 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 12:03:13.952 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 12:03:13.957 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 12:03:13.957 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 12:03:13.958 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 12:03:13.960 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 12:03:13.961 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 12:03:13.962 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 12:03:13.971 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 12:03:13.971 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 12:03:13.972 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 12:03:13.972 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 12:41:00.196 [error] <0.231.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.236.0> exit with reason normal in context child_terminated
+2017-07-28 12:41:00.214 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 12:41:00.216 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 12:41:00.216 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 12:41:00.218 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 12:41:00.218 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 12:41:00.219 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 12:41:00.223 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 12:41:00.225 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 12:41:00.225 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 12:41:00.230 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 12:41:00.230 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 12:41:00.231 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 12:41:00.232 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 12:41:00.233 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 12:41:00.235 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 12:41:00.241 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 12:41:00.241 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 12:41:00.243 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 12:41:00.247 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 12:46:41.904 [warning] <0.32.0> lager_error_logger_h dropped 50 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 12:46:41.905 [error] <0.417.0> CRASH REPORT Process <0.417.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 12:46:41.923 [error] <0.416.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.416.0>, stream 1 had its request process <0.417.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50832},pid => <0.416.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 12:56:29.593 [error] <0.231.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.236.0> exit with reason normal in context child_terminated
+2017-07-28 12:56:29.611 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 12:56:29.614 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 12:56:29.614 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 12:56:29.616 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 12:56:29.616 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 12:56:29.617 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 12:56:29.622 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 12:56:29.624 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 12:56:29.624 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 12:56:29.629 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 12:56:29.629 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 12:56:29.630 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 12:56:29.631 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 12:56:29.633 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 12:56:29.634 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 12:56:29.641 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 12:56:29.641 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 12:56:29.643 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 12:56:29.646 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 12:57:03.230 [warning] <0.32.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 12:57:03.230 [error] <0.413.0> CRASH REPORT Process <0.413.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 12:57:03.248 [error] <0.412.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.412.0>, stream 1 had its request process <0.413.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50946},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:14:25.535 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 13:14:25.552 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 13:14:25.555 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 13:14:25.555 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 13:14:25.557 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 13:14:25.557 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 13:14:25.559 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 13:14:25.564 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 13:14:25.566 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 13:14:25.566 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 13:14:25.572 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 13:14:25.572 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 13:14:25.573 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 13:14:25.575 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 13:14:25.576 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 13:14:25.577 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 13:14:25.583 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 13:14:25.583 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 13:14:25.585 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 13:14:25.587 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 13:14:48.152 [warning] <0.32.0> lager_error_logger_h dropped 47 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 13:14:48.152 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:14:48.166 [error] <0.376.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51000},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:20:47.513 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 13:20:47.530 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 13:20:47.533 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 13:20:47.533 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 13:20:47.535 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 13:20:47.535 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 13:20:47.537 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 13:20:47.541 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 13:20:47.543 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 13:20:47.543 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 13:20:47.549 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 13:20:47.549 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 13:20:47.550 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 13:20:47.551 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 13:20:47.553 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 13:20:47.554 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 13:20:47.560 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 13:20:47.560 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 13:20:47.562 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 13:20:47.564 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 13:20:56.047 [warning] <0.32.0> lager_error_logger_h dropped 76 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 13:20:56.048 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:20:56.071 [error] <0.376.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51136},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:25:46.909 [error] <0.227.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.232.0> exit with reason normal in context child_terminated
+2017-07-28 13:25:46.924 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 13:25:46.928 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 13:25:46.928 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 13:25:46.929 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 13:25:46.930 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 13:25:46.931 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 13:25:46.935 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 13:25:46.937 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 13:25:46.937 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 13:25:46.942 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 13:25:46.942 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 13:25:46.944 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 13:25:46.945 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 13:25:46.946 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 13:25:46.948 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 13:25:46.954 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 13:25:46.954 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 13:25:46.955 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 13:25:46.957 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 13:26:22.245 [warning] <0.32.0> lager_error_logger_h dropped 41 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 13:26:22.245 [error] <0.409.0> CRASH REPORT Process <0.409.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:26:22.265 [error] <0.408.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.408.0>, stream 1 had its request process <0.409.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51156},pid => <0.408.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:29:57.562 [error] <0.413.0> CRASH REPORT Process <0.413.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:29:57.563 [error] <0.412.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.412.0>, stream 1 had its request process <0.413.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51170},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:37:19.309 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 13:37:19.335 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 13:37:19.338 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 13:37:19.338 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 13:37:19.340 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 13:37:19.340 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 13:37:19.342 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 13:37:19.347 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 13:37:19.351 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 13:37:19.351 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 13:37:19.355 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 13:37:19.356 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 13:37:19.357 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 13:37:19.358 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 13:37:19.359 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 13:37:19.361 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 13:37:19.367 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 13:37:19.368 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 13:37:19.369 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 13:37:19.371 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 13:37:29.565 [warning] <0.32.0> lager_error_logger_h dropped 70 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 13:37:29.565 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:37:29.585 [error] <0.365.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51248},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:49:34.313 [error] <0.374.0> CRASH REPORT Process <0.374.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 13:49:34.314 [error] <0.373.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.373.0>, stream 1 had its request process <0.374.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51324},pid => <0.373.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:56:16.270 [error] <0.257.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.262.0> exit with reason normal in context child_terminated
+2017-07-28 13:56:16.289 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 13:56:16.292 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 13:56:16.292 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 13:56:16.293 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 13:56:16.293 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 13:56:16.295 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 13:56:16.299 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 13:56:16.301 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 13:56:16.301 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 13:56:16.306 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 13:56:16.306 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 13:56:16.307 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 13:56:16.308 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 13:56:16.309 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 13:56:16.311 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 13:56:16.317 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 13:56:16.317 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 13:56:16.319 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 13:56:16.321 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 13:56:16.321 [info] <0.33.0> Application question_server started on node nonode@nohost
+2017-07-28 14:00:51.480 [error] <0.257.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.262.0> exit with reason normal in context child_terminated
+2017-07-28 14:00:51.498 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:00:51.501 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:00:51.501 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:00:51.503 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:00:51.503 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:00:51.504 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:00:51.509 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:00:51.511 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:00:51.511 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:00:51.517 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:00:51.517 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:00:51.518 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:00:51.519 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:00:51.521 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:00:51.522 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:00:51.530 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:00:51.530 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:00:51.532 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:00:51.534 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:00:55.032 [warning] <0.32.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:00:55.032 [error] <0.439.0> CRASH REPORT Process <0.439.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:00:55.043 [error] <0.438.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.438.0>, stream 1 had its request process <0.439.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51420},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:01:52.434 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 14:01:52.459 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:01:52.461 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:01:52.461 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:01:52.463 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:01:52.463 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:01:52.465 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:01:52.469 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:01:52.472 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:01:52.472 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:01:52.478 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:01:52.478 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:01:52.479 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:01:52.481 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:01:52.482 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:01:52.483 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:01:52.490 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:01:52.490 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:01:52.491 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:01:52.494 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:02:19.285 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 14:02:19.308 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:02:19.312 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:02:19.312 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:02:19.313 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:02:19.313 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:02:19.315 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:02:19.319 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:02:19.321 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:02:19.321 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:02:19.327 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:02:19.327 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:02:19.328 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:02:19.330 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:02:19.331 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:02:19.333 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:02:19.341 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:02:19.341 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:02:19.342 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:02:19.344 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:02:39.887 [warning] <0.32.0> lager_error_logger_h dropped 49 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:02:39.887 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Question.Question.Server':'__call_rpc__'(<<"/QuestionService/GetAllQuestions">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:02:39.908 [error] <0.365.0> Ranch listener 'Elixir.Question.Question.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51442},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:14:40.890 [error] <0.257.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.262.0> exit with reason normal in context child_terminated
+2017-07-28 14:14:40.911 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:14:40.913 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:14:40.913 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:14:40.915 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:14:40.915 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:14:40.915 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:14:40.916 [info] <0.33.0> Application question_server started on node nonode@nohost
+2017-07-28 14:18:32.341 [error] <0.257.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.262.0> exit with reason normal in context child_terminated
+2017-07-28 14:18:32.360 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:18:32.363 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:18:32.363 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:18:32.365 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:18:32.365 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:18:32.366 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:18:32.371 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:18:32.373 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:18:32.373 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:18:32.378 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:18:32.378 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:18:32.380 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:18:32.381 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:18:32.382 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:18:32.383 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:18:32.389 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:18:32.389 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:18:32.391 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:18:32.393 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:18:32.393 [info] <0.33.0> Application question_server started on node nonode@nohost
+2017-07-28 14:22:24.490 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 14:22:24.507 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:22:24.509 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:22:24.510 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:22:24.511 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:22:24.511 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:22:24.513 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:22:24.516 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:22:24.518 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:22:24.518 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:22:24.523 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:22:24.523 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:22:24.524 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:22:24.525 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:22:24.527 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:22:24.528 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:22:24.536 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:22:24.536 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:22:24.537 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:22:24.539 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:22:34.255 [warning] <0.32.0> lager_error_logger_h dropped 43 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:22:34.255 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:22:34.277 [error] <0.376.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51532},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:30:28.507 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 14:30:28.523 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:30:28.527 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:30:28.527 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:30:28.529 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:30:28.529 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:30:28.530 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:30:28.535 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:30:28.537 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:30:28.537 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:30:28.545 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:30:28.545 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:30:28.546 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:30:28.547 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:30:28.549 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:30:28.550 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:30:28.557 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:30:28.557 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:30:28.559 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:30:28.561 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:30:48.438 [warning] <0.32.0> lager_error_logger_h dropped 55 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:30:48.438 [error] <0.377.0> CRASH REPORT Process <0.377.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:30:48.459 [error] <0.376.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51738},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:41:35.419 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-28 14:41:35.435 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:41:35.438 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:41:35.438 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:41:35.440 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:41:35.440 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:41:35.442 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:41:35.446 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:41:35.448 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:41:35.448 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:41:35.455 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:41:35.455 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:41:35.456 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:41:35.458 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:41:35.459 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:41:35.461 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:41:35.468 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:41:35.468 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:41:35.469 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:41:35.471 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:43:26.071 [warning] <0.32.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:43:26.071 [error] <0.379.0> CRASH REPORT Process <0.379.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:43:26.086 [error] <0.378.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.378.0>, stream 1 had its request process <0.379.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51988},pid => <0.378.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:44:24.221 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 14:44:24.243 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:44:24.246 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:44:24.246 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:44:24.248 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:44:24.248 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:44:24.250 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:44:24.254 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:44:24.256 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:44:24.256 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:44:24.263 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:44:24.263 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:44:24.264 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:44:24.265 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:44:24.267 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:44:24.268 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:44:24.274 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:44:24.274 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:44:24.276 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:44:24.278 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:44:57.065 [warning] <0.32.0> lager_error_logger_h dropped 30 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:44:57.066 [error] <0.367.0> CRASH REPORT Process <0.367.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:44:57.087 [error] <0.366.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.366.0>, stream 1 had its request process <0.367.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52004},pid => <0.366.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:45:26.389 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 14:45:26.411 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:45:26.414 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:45:26.414 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:45:26.415 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:45:26.415 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:45:26.417 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:45:26.421 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:45:26.423 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:45:26.423 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:45:26.429 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:45:26.429 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:45:26.430 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:45:26.431 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:45:26.432 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:45:26.434 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:45:26.439 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:45:26.439 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:45:26.441 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:45:26.443 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:48:36.773 [warning] <0.32.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:48:36.773 [error] <0.367.0> CRASH REPORT Process <0.367.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:48:36.788 [error] <0.365.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.365.0>, stream 1 had its request process <0.367.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52022},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:55:18.299 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-28 14:55:18.318 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 14:55:18.321 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 14:55:18.321 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 14:55:18.323 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 14:55:18.323 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 14:55:18.324 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 14:55:18.329 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 14:55:18.331 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 14:55:18.331 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 14:55:18.337 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 14:55:18.337 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 14:55:18.338 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 14:55:18.339 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 14:55:18.341 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 14:55:18.342 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 14:55:18.348 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 14:55:18.348 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 14:55:18.350 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 14:55:18.352 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 14:56:53.077 [warning] <0.32.0> lager_error_logger_h dropped 81 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 14:56:53.077 [error] <0.366.0> CRASH REPORT Process <0.366.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 14:56:53.098 [error] <0.365.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52366},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 15:08:49.695 [error] <0.257.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.262.0> exit with reason normal in context child_terminated
+2017-07-28 15:08:49.715 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-28 15:08:49.718 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-28 15:08:49.718 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-28 15:08:49.720 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-28 15:08:49.720 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-28 15:08:49.721 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-28 15:08:49.725 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-28 15:08:49.728 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-28 15:08:49.728 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-28 15:08:49.733 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-28 15:08:49.733 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-28 15:08:49.735 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-28 15:08:49.736 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-28 15:08:49.737 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-28 15:08:49.738 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-28 15:08:49.745 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-28 15:08:49.745 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-28 15:08:49.746 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-28 15:08:49.748 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-28 15:09:04.891 [warning] <0.32.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2017-07-28 15:09:04.891 [error] <0.439.0> CRASH REPORT Process <0.439.0> with 0 neighbours exited with reason: no function clause matching 'Elixir.Question.QuestionService.Server':'__call_rpc__'(<<"/QuestionService/QuestionCall">>, #{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,...}) line 4 in 'Elixir.GRPC.Adapter.Cowboy.StreamHandler':proc_lib_hack/3 line 144
+2017-07-28 15:09:04.899 [error] <0.438.0> Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.438.0>, stream 1 had its request process <0.439.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52492},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-30 20:33:10.393 [error] <0.2174.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.2179.0> exit with reason normal in context child_terminated
+2017-07-30 20:33:10.419 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 20:33:10.421 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 20:33:10.421 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 20:33:10.423 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 20:33:10.423 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 20:33:10.425 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 20:33:10.434 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 20:33:10.438 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 20:33:10.438 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 20:33:10.443 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 20:33:10.443 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 20:33:10.445 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 20:33:10.446 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 20:33:10.448 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 20:33:10.449 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 20:33:10.461 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 20:33:10.461 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 20:33:10.464 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 20:33:10.464 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 20:44:31.425 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-30 20:44:31.441 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 20:44:31.445 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 20:44:31.445 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 20:44:31.447 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 20:44:31.447 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 20:44:31.448 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 20:44:31.453 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 20:44:31.455 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 20:44:31.455 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 20:44:31.461 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 20:44:31.462 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 20:44:31.463 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 20:44:31.464 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 20:44:31.466 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 20:44:31.467 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 20:44:31.474 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 20:44:31.474 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 20:44:31.476 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 20:44:31.478 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 20:47:58.634 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-30 20:47:58.657 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 20:47:58.662 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 20:47:58.662 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 20:47:58.664 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 20:47:58.664 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 20:47:58.665 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 20:47:58.669 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 20:47:58.671 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 20:47:58.671 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 20:47:58.677 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 20:47:58.677 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 20:47:58.678 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 20:47:58.679 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 20:47:58.681 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 20:47:58.682 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 20:47:58.688 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 20:47:58.688 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 20:47:58.690 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 20:47:58.692 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 20:58:40.675 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-30 20:58:40.692 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 20:58:40.694 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 20:58:40.695 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 20:58:40.696 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 20:58:40.696 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 20:58:40.698 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 20:58:40.703 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 20:58:40.707 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 20:58:40.707 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 20:58:40.713 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 20:58:40.713 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 20:58:40.715 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 20:58:40.716 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 20:58:40.717 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 20:58:40.719 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 20:58:40.727 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 20:58:40.727 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 20:58:40.729 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 20:58:40.731 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 20:59:59.425 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-30 20:59:59.441 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 20:59:59.445 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 20:59:59.445 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 20:59:59.447 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 20:59:59.448 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 20:59:59.449 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 20:59:59.453 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 20:59:59.456 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 20:59:59.456 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 20:59:59.463 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 20:59:59.463 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 20:59:59.464 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 20:59:59.465 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 20:59:59.467 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 20:59:59.468 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 20:59:59.475 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 20:59:59.475 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 20:59:59.477 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 20:59:59.479 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 21:01:40.147 [error] <0.184.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.189.0> exit with reason normal in context child_terminated
+2017-07-30 21:01:40.170 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 21:01:40.173 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 21:01:40.173 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 21:01:40.175 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 21:01:40.175 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 21:01:40.176 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 21:01:40.180 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 21:01:40.182 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 21:01:40.182 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 21:01:40.189 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 21:01:40.189 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 21:01:40.190 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 21:01:40.191 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 21:01:40.193 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 21:01:40.194 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 21:01:40.200 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 21:01:40.201 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 21:01:40.202 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 21:01:40.204 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 21:04:06.087 [error] <0.195.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.200.0> exit with reason normal in context child_terminated
+2017-07-30 21:04:06.102 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 21:04:06.106 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 21:04:06.106 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 21:04:06.108 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 21:04:06.108 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 21:04:06.109 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 21:04:06.113 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 21:04:06.115 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 21:04:06.115 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 21:04:06.121 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 21:04:06.121 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 21:04:06.124 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 21:04:06.125 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 21:04:06.126 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 21:04:06.127 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 21:04:06.134 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 21:04:06.134 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 21:04:06.135 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 21:04:06.138 [info] <0.33.0> Application plug started on node nonode@nohost

@@ -1,0 +1,563 @@
+2017-07-28 07:58:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.2160.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 08:35:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.2153.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 08:39:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.192.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 08:41:39 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.192.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 08:42:47 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.278.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 09:02:08 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.278.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 09:20:35 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.206.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 09:26:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 09:41:00 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.183.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 09:41:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.183.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 10:29:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.192.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 10:55:15 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.278.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 10:55:22 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.192.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 12:03:13 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.2155.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 12:41:00 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.236.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 12:46:41 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.417.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50832},pid => <0.416.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.416.0>,<0.308.0>,<0.307.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.304.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.416.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 12:46:41 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.416.0>, stream 1 had its request process <0.417.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50832},pid => <0.416.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 12:56:29 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.236.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 12:57:03 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.413.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50946},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.412.0>,<0.308.0>,<0.307.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.304.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.412.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 12:57:03 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.412.0>, stream 1 had its request process <0.413.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},50946},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:14:25 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 13:14:48 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51000},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.376.0>,<0.272.0>,<0.271.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.268.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 13:14:48 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51000},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:20:47 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 13:20:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51136},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.376.0>,<0.272.0>,<0.271.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.268.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 13:20:56 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51136},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:25:46 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.232.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 13:26:22 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.409.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51156},pid => <0.408.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.408.0>,<0.304.0>,<0.303.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.300.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.408.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 13:26:22 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.408.0>, stream 1 had its request process <0.409.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51156},pid => <0.408.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:29:57 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.413.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51170},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.412.0>,<0.304.0>,<0.303.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.300.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.412.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 379
+  neighbours:
+2017-07-28 13:29:57 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.412.0>, stream 1 had its request process <0.413.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51170},pid => <0.412.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:37:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 13:37:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.366.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51248},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.365.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.365.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 13:37:29 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51248},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:49:34 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.374.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51324},pid => <0.373.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.373.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.373.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 379
+  neighbours:
+2017-07-28 13:49:34 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.373.0>, stream 1 had its request process <0.374.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51324},pid => <0.373.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 13:56:16 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.262.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:00:51 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.262.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:00:55 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.439.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51420},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.438.0>,<0.334.0>,<0.333.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.330.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.438.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 423
+  neighbours:
+2017-07-28 14:00:55 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.438.0>, stream 1 had its request process <0.439.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51420},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:01:52 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:02:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:02:39 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.366.0>
+    registered_name: []
+    exception exit: {{undef,[{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51442},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.365.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.365.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 407
+  neighbours:
+2017-07-28 14:02:39 =ERROR REPORT====
+Ranch listener 'Elixir.Question.Question.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason undef and stacktrace [{'Elixir.Question.Question.Server','__call_rpc__',[<<"/QuestionService/GetAllQuestions">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/GetAllQuestions">>,path_info => undefined,peer => {{172,17,0,1},51442},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.Question.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.Question.Server',unmarshal => nil}],[]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:14:40 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.262.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:18:32 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.262.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:22:24 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:22:34 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51532},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.376.0>,<0.272.0>,<0.271.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.268.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 426
+  neighbours:
+2017-07-28 14:22:34 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51532},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:30:28 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:30:48 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51738},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.376.0>,<0.272.0>,<0.271.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.268.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 415
+  neighbours:
+2017-07-28 14:30:48 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.376.0>, stream 1 had its request process <0.377.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51738},pid => <0.376.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:41:35 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:43:26 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.379.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51988},pid => <0.378.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.378.0>,<0.272.0>,<0.271.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.268.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.378.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 415
+  neighbours:
+2017-07-28 14:43:26 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.378.0>, stream 1 had its request process <0.379.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},51988},pid => <0.378.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:44:24 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:44:57 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.367.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52004},pid => <0.366.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.366.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.366.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 426
+  neighbours:
+2017-07-28 14:44:57 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.366.0>, stream 1 had its request process <0.367.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52004},pid => <0.366.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:45:26 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:48:36 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.367.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52022},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.365.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.365.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 426
+  neighbours:
+2017-07-28 14:48:36 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.365.0>, stream 1 had its request process <0.367.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52022},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 14:55:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 14:56:53 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.366.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52366},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.365.0>,<0.261.0>,<0.260.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.257.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.365.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 426
+  neighbours:
+2017-07-28 14:56:53 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.365.0>, stream 1 had its request process <0.366.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52366},pid => <0.365.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-28 15:08:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.262.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-28 15:09:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GRPC.Adapter.Cowboy.StreamHandler:proc_lib_hack/3
+    pid: <0.439.0>
+    registered_name: []
+    exception exit: {{function_clause,[{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52492},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,144}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.438.0>,<0.334.0>,<0.333.0>,'Elixir.GRPC.Server.Supervisor','Elixir.Ppp.Supervisor',<0.330.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.438.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 415
+  neighbours:
+2017-07-28 15:09:04 =ERROR REPORT====
+Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.438.0>, stream 1 had its request process <0.439.0> exit with reason function_clause and stacktrace [{'Elixir.Question.QuestionService.Server','__call_rpc__',[<<"/QuestionService/QuestionCall">>,#{'__struct__' => 'Elixir.GRPC.Server.Stream',adapter => 'Elixir.GRPC.Adapter.Cowboy',marshal => nil,payload => #{bindings => #{},body_length => undefined,has_body => true,has_sent_resp => headers,headers => #{<<"content-type">> => <<"application/grpc+proto">>,<<"te">> => <<"trailers">>,<<"user-agent">> => <<"grpc-elixir/0.1.0">>},host => <<"localhost">>,host_info => undefined,method => <<"POST">>,path => <<"/QuestionService/QuestionCall">>,path_info => undefined,peer => {{172,17,0,1},52492},pid => <0.438.0>,port => undefined,qs => <<>>,ref => 'Elixir.Question.QuestionService.Server',scheme => <<"http">>,streamid => 1,version => 'HTTP/2'},server => 'Elixir.Question.QuestionService.Server',unmarshal => nil}],[{file,"lib/question_server.ex"},{line,4}]},{'Elixir.GRPC.Adapter.Cowboy.Handler',init,2,[{file,"lib/grpc/adapter/cowboy/handler.ex"},{line,17}]},{cowboy_handler,execute,2,[{file,"/home/nemanja/workspace/question_server/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',execute,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,152}]},{'Elixir.GRPC.Adapter.Cowboy.StreamHandler',proc_lib_hack,3,[{file,"lib/grpc/adapter/cowboy/stream_handler.ex"},{line,139}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-07-30 20:33:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.2179.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 20:44:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 20:47:58 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 20:58:40 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 20:59:59 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 21:01:40 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.189.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-07-30 21:04:06 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
