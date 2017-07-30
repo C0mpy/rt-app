@@ -22,7 +22,7 @@ service QuestionService {
 message QuestionRequest {}
 
 message QuestionResponse {
-  string question = 1;
+  repeated string question = 1;
 }
   """
 end
