@@ -574,3 +574,26 @@
 2017-07-30 22:14:24.374 [info] <0.33.0> Application mime started on node nonode@nohost
 2017-07-30 22:14:24.374 [info] <0.33.0> Application plug started on node nonode@nohost
 2017-07-30 22:15:04.374 [info] <0.4043.0>@h2_connection:route_frame:545 [client] Stream 1 WindowUpdate 13
+2017-07-30 22:44:06.309 [error] <0.192.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.197.0> exit with reason normal in context child_terminated
+2017-07-30 22:44:06.336 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-30 22:44:06.339 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-30 22:44:06.339 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-30 22:44:06.342 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-30 22:44:06.342 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-30 22:44:06.349 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-30 22:44:06.351 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-30 22:44:06.353 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-30 22:44:06.353 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-30 22:44:06.355 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-07-30 22:44:06.361 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-30 22:44:06.361 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-30 22:44:06.363 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-30 22:44:06.364 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-30 22:44:06.366 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-30 22:44:06.368 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-30 22:44:06.374 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-30 22:44:06.374 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-30 22:44:06.375 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-07-30 22:44:06.378 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-30 22:44:06.382 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-07-30 22:44:10.888 [info] <0.414.0>@h2_connection:route_frame:545 [client] Stream 1 WindowUpdate 67

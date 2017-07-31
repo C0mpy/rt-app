@@ -2234,3 +2234,9 @@ Failed to start Ranch listener 'Elixir.UsvcOtisak.Router.HTTP' in ranch_tcp:list
      Reason:     normal
      Offender:   [{pid,<0.3826.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
+2017-07-30 22:44:06 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.197.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

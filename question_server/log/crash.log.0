@@ -573,3 +573,9 @@ Ranch listener 'Elixir.Question.QuestionService.Server', connection process <0.4
      Reason:     normal
      Offender:   [{pid,<0.232.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
+2017-07-30 22:44:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.200.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

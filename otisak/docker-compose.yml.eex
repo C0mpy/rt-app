@@ -1,9 +1,14 @@
 version: '3.2'
 services:
-  usvc_otisak:
-    image: renderedtext/usvc_otisak:<%= image_tag %>
-    ports:
-    - "4000:4000"
 
-  postgrex:
+  postgres:
     image: postgres:latest
+    ports:
+      - "5432:5432"
+
+  otisak:
+    build: .
+    environment:
+      - DB_URL=ecto://postgres:postgres@postgres/postgres
+    depends_on:
+      - postgres
