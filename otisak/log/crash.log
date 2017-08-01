@@ -2246,3 +2246,184 @@ Failed to start Ranch listener 'Elixir.UsvcOtisak.Router.HTTP' in ranch_tcp:list
      Reason:     normal
      Offender:   [{pid,<0.351.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.190.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.288.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:52:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.DBConnection.Connection:init/1
+    pid: <0.288.0>
+    registered_name: []
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.Connection',enter_stop,5,[{file,"lib/connection.ex"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.287.0>,'Elixir.UsvcOtisak.Repo.Pool','Elixir.UsvcOtisak.Repo','Elixir.Ppp.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>,<0.286.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 443
+  neighbours:
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1268.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1269.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.1271.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:52:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.DBConnection.Connection:init/1
+    pid: <0.1271.0>
+    registered_name: []
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.Connection',enter_stop,5,[{file,"lib/connection.ex"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.287.0>,'Elixir.UsvcOtisak.Repo.Pool','Elixir.UsvcOtisak.Repo','Elixir.Ppp.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 388
+  neighbours:
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1271.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.1272.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:52:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.DBConnection.Connection:init/1
+    pid: <0.1272.0>
+    registered_name: []
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.Connection',enter_stop,5,[{file,"lib/connection.ex"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.287.0>,'Elixir.UsvcOtisak.Repo.Pool','Elixir.UsvcOtisak.Repo','Elixir.Ppp.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 388
+  neighbours:
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1272.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.1273.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:52:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.DBConnection.Connection:init/1
+    pid: <0.1273.0>
+    registered_name: []
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.Connection',enter_stop,5,[{file,"lib/connection.ex"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.287.0>,'Elixir.UsvcOtisak.Repo.Pool','Elixir.UsvcOtisak.Repo','Elixir.Ppp.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 404
+  neighbours:
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1273.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.1274.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:52:31 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.DBConnection.Connection:init/1
+    pid: <0.1274.0>
+    registered_name: []
+    exception exit: {{#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},[{'Elixir.Connection',enter_stop,5,[{file,"lib/connection.ex"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.287.0>,'Elixir.UsvcOtisak.Repo.Pool','Elixir.UsvcOtisak.Repo','Elixir.Ppp.Supervisor',<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.287.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 404
+  neighbours:
+2017-08-01 10:52:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.287.0>,poolboy_sup}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.1274.0>},{id,'Elixir.DBConnection.Poolboy.Worker'},{mfargs,{'Elixir.DBConnection.Poolboy.Worker',start_link,undefined}},{restart_type,temporary},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:52:31 =ERROR REPORT====
+** Generic server <0.1275.0> terminating 
+** Last message in was nil
+** When Server state == 'Elixir.Postgrex.Protocol'
+** Reason for termination == 
+** {#{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]},[{'Elixir.Keyword','fetch!',2,[{file,"lib/keyword.ex"},{line,371}]},{'Elixir.Postgrex.Protocol',connect,1,[{file,"lib/postgrex/protocol.ex"},{line,76}]},{'Elixir.DBConnection.Connection',connect,2,[{file,"lib/db_connection/connection.ex"},{line,134}]},{'Elixir.Connection',enter_connect,5,[{file,"lib/connection.ex"},{line,622}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-08-01 10:54:45 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.190.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:55:25 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.3695.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 10:55:26 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.187.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',start_link,[{error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

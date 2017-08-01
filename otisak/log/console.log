@@ -619,3 +619,108 @@
 2017-07-31 11:33:52.784 [info] <0.33.0> Application uuid started on node nonode@nohost
 2017-07-31 11:33:52.787 [info] <0.33.0> Application mime started on node nonode@nohost
 2017-07-31 11:33:52.790 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-08-01 10:52:31.657 [error] <0.185.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.190.0> exit with reason normal in context child_terminated
+2017-08-01 10:52:31.679 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-08-01 10:52:31.683 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-08-01 10:52:31.683 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-08-01 10:52:31.686 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-08-01 10:52:31.686 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-08-01 10:52:31.693 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-08-01 10:52:31.695 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-08-01 10:52:31.699 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-08-01 10:52:31.699 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-08-01 10:52:31.701 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-08-01 10:52:31.707 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-08-01 10:52:31.707 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-08-01 10:52:31.709 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-08-01 10:52:31.711 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-08-01 10:52:31.712 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-08-01 10:52:31.714 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-08-01 10:52:31.721 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-08-01 10:52:31.721 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-08-01 10:52:31.722 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-08-01 10:52:31.725 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-08-01 10:52:31.729 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-08-01 10:52:31.806 [error] <0.288.0> gen_server <0.288.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:52:31.807 [error] <0.288.0> CRASH REPORT Process <0.288.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in 'Elixir.Connection':enter_stop/5 line 686
+2017-08-01 10:52:31.807 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1268.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.808 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1269.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.808 [error] <0.1271.0> gen_server <0.1271.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:52:31.808 [error] <0.1271.0> CRASH REPORT Process <0.1271.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in 'Elixir.Connection':enter_stop/5 line 686
+2017-08-01 10:52:31.808 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1271.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.809 [error] <0.1272.0> gen_server <0.1272.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:52:31.809 [error] <0.1272.0> CRASH REPORT Process <0.1272.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in 'Elixir.Connection':enter_stop/5 line 686
+2017-08-01 10:52:31.809 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1272.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.809 [error] <0.1273.0> gen_server <0.1273.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:52:31.810 [error] <0.1273.0> CRASH REPORT Process <0.1273.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in 'Elixir.Connection':enter_stop/5 line 686
+2017-08-01 10:52:31.810 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1273.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.810 [error] <0.1274.0> gen_server <0.1274.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:52:31.810 [error] <0.1274.0> CRASH REPORT Process <0.1274.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in 'Elixir.Connection':enter_stop/5 line 686
+2017-08-01 10:52:31.810 [error] <0.287.0> Supervisor {<0.287.0>,poolboy_sup} had child 'Elixir.DBConnection.Poolboy.Worker' started with {'Elixir.DBConnection.Poolboy.Worker',start_link,undefined} at <0.1274.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371 in context child_terminated
+2017-08-01 10:52:31.811 [error] <0.1275.0> gen_server <0.1275.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.KeyError',key => database,term => [{hostname,<<"localhost">>},{username,<<"nemanja">>},{types,'Elixir.Ecto.Adapters.Postgres.TypeModule'},{port,5432},{name,'Elixir.UsvcOtisak.Repo.Pool'},{otp_app,usvc_otisak},{repo,'Elixir.UsvcOtisak.Repo'},{adapter,'Elixir.Ecto.Adapters.Postgres'},{pool_timeout,5000},{timeout,15000},{adapter,'Elixir.Ecto.Adapters.Postgres'},{url,{system,<<"DB_URL">>}},{pool,'Elixir.DBConnection.Poolboy'}]} in 'Elixir.Keyword':'fetch!'/2 line 371
+2017-08-01 10:54:45.614 [error] <0.185.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.190.0> exit with reason normal in context child_terminated
+2017-08-01 10:54:45.631 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-08-01 10:54:45.637 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-08-01 10:54:45.637 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-08-01 10:54:45.640 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-08-01 10:54:45.640 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-08-01 10:54:45.646 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-08-01 10:54:45.647 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-08-01 10:54:45.653 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-08-01 10:54:45.653 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-08-01 10:54:45.655 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-08-01 10:54:45.661 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-08-01 10:54:45.661 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-08-01 10:54:45.663 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-08-01 10:54:45.664 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-08-01 10:54:45.666 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-08-01 10:54:45.668 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-08-01 10:54:45.675 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-08-01 10:54:45.675 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-08-01 10:54:45.676 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-08-01 10:54:45.678 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-08-01 10:54:45.681 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-08-01 10:55:25.735 [error] <0.3690.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.3695.0> exit with reason normal in context child_terminated
+2017-08-01 10:55:25.764 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-08-01 10:55:25.767 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-08-01 10:55:25.767 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-08-01 10:55:25.770 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-08-01 10:55:25.770 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-08-01 10:55:25.782 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-08-01 10:55:25.783 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-08-01 10:55:25.788 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-08-01 10:55:25.788 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-08-01 10:55:25.789 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-08-01 10:55:25.796 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-08-01 10:55:25.796 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-08-01 10:55:25.797 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-08-01 10:55:25.799 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-08-01 10:55:25.800 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-08-01 10:55:25.802 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-08-01 10:55:25.816 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-08-01 10:55:25.816 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-08-01 10:55:25.817 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-08-01 10:55:25.819 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-08-01 10:55:25.819 [info] <0.33.0> Application plug started on node nonode@nohost
+2017-08-01 10:55:26.418 [error] <0.182.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':start_link({error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}}) at <0.187.0> exit with reason normal in context child_terminated
+2017-08-01 10:55:26.436 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-08-01 10:55:26.441 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-08-01 10:55:26.441 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-08-01 10:55:26.443 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-08-01 10:55:26.443 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-08-01 10:55:26.449 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-08-01 10:55:26.450 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-08-01 10:55:26.452 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-08-01 10:55:26.453 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-08-01 10:55:26.456 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-08-01 10:55:26.463 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-08-01 10:55:26.463 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-08-01 10:55:26.464 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-08-01 10:55:26.466 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-08-01 10:55:26.467 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-08-01 10:55:26.469 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-08-01 10:55:26.475 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-08-01 10:55:26.475 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-08-01 10:55:26.476 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-08-01 10:55:26.478 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-08-01 10:55:26.480 [info] <0.33.0> Application plug started on node nonode@nohost

@@ -17,12 +17,12 @@ INTERACTIVE_SESSION=\
           --rm \
 					--network=host \
           --workdir="/home/developer/prj" \
-          -it renderedtext/elixir:latest
+          -it renderedtext/elixir:1.4.5
 
-
+CMD?=/bin/bash
 console:
 	# docker run -p 4000:4000 $(INTERACTIVE_SESSION)  /bin/bash
-	docker run -p 4000:4000 $(INTERACTIVE_SESSION)  /bin/bash
+	docker run -p 4000:4000 $(INTERACTIVE_SESSION) $(CMD)
 
 start_postgres:
 	docker run -d -p 5432:5432 --rm --network=host --name postgres postgres
@@ -38,7 +38,9 @@ image.run: image.build
 
 image.test: image.build config-gen
 	docker-compose build
-	docker-compose up
+	docker-compose up -d
+	./entry_point.sh
+	docker-compose down
 
 create-deploy: abort-on-uncommited-changes image.push config-gen
 	kubectl create -f deploy.yml

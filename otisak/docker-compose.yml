@@ -12,7 +12,8 @@ services:
       - DB_URL=ecto://postgres:postgres@postgres/postgres
     depends_on:
       - postgres
-    entrypoint: sh ./entry_point.sh
+#    entrypoint: sh ./entry_point.sh
+#    command: sh ./wait-for-it.sh postgres:5432
 
   question_server:
     build: ../question_server/
