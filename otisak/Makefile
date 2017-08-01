@@ -48,8 +48,7 @@ image.test: image.build
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix run ./priv/repo/seed.exs
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix test
 
-image.semaphore.test:
-	image.build
+image.semaphore.test: image.build
 	docker run -e DB_URL=$(SEMAPHORE_DB_URL) --network=host --rm -it $(IMAGE) mix ecto.rollback --all
 	cd ../question_server && $(MAKE) image.build image.run
 	docker run -e DB_URL=$(SEMAPHORE_DB_URL) --network=host --rm -it $(IMAGE) mix do ecto.create, ecto.migrate
