@@ -2457,3 +2457,27 @@ Failed to start Ranch listener 'Elixir.UsvcOtisak.Router.HTTP' in ranch_tcp:list
      Reason:     normal
      Offender:   [{pid,<0.185.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
 
+2017-08-01 11:23:03 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.188.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 11:23:09 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.185.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 11:38:44 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.188.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2017-08-01 11:38:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Logger.Supervisor'}
+     Context:    child_terminated
+     Reason:     normal
+     Offender:   [{pid,<0.185.0>},{id,'Elixir.Logger.ErrorHandler'},{mfargs,{'Elixir.Logger.Watcher',watcher,[error_logger,'Elixir.Logger.ErrorHandler',{true,false,500}]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+

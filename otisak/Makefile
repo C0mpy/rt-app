@@ -8,11 +8,12 @@ TAG?=$(GIT_HASH)-$(SEMAPHORE_EXECUTABLE_UUID)
 REPO=renderedtext/usvc_otisak
 IMAGE=$(REPO):$(TAG)
 IMAGE_LATEST=$(REPO):latest
+DB_URL="ecto://postgres:postgres@localhost/postgres"
 
 INTERACTIVE_SESSION=\
           -v $$PWD/home_dir:/home/developer \
           -v $$PWD:/home/developer/prj \
-          -e DB_URL="ecto://postgres:postgres@localhost/postgres" \
+          -e DB_URL=$(DB_URL) \
           --user developer \
           --rm \
 					--network=host \
@@ -38,14 +39,12 @@ image.run: image.build
 
 image.test: image.build config-gen
 	$(MAKE) start_postgres
+	sleep 3
+	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix ecto.rollback --all
 	cd ../question_server &&$(MAKE) image.build image.run
-	# docker-compose build
-	# docker-compose up -d
-	# ./entry_point.sh
-	make console CMD="mix ecto.rollback --all"
-	make console CMD="mix do ecto.create, ecto.migrate"
-	make console CMD="mix run ./priv/repo/seed.exs"
-	make console CMD="mix test"
+	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix do ecto.create, ecto.migrate
+	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix run ./priv/repo/seed.exs
+	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix test
 	docker-compose down
 
 create-deploy: abort-on-uncommited-changes image.push config-gen
