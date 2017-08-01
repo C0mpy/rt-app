@@ -1,6 +1,5 @@
 export DB_URL="ecto://postgres:postgres@localhost/postgres"
-mix ecto.create
-mix ecto.migrate
-make console CMD=./priv/repo/seed.exs
-make console CMD=mix test
-yes | mix ecto.drop
+make console CMD="mix ecto.rollback --all"
+make console CMD="mix do ecto.create, ecto.migrate"
+make console CMD="mix run ./priv/repo/seed.exs"
+make console CMD="mix test"

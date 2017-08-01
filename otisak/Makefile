@@ -37,9 +37,15 @@ image.run: image.build
 	docker run -p 4000:4000 -it $(IMAGE)
 
 image.test: image.build config-gen
-	docker-compose build
-	docker-compose up -d
-	./entry_point.sh
+	$(MAKE) start_postgres
+	cd ../question_server &&$(MAKE) image.build image.run
+	# docker-compose build
+	# docker-compose up -d
+	# ./entry_point.sh
+	make console CMD="mix ecto.rollback --all"
+	make console CMD="mix do ecto.create, ecto.migrate"
+	make console CMD="mix run ./priv/repo/seed.exs"
+	make console CMD="mix test"
 	docker-compose down
 
 create-deploy: abort-on-uncommited-changes image.push config-gen

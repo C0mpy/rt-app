@@ -310,3 +310,13 @@ iex -S mix
 iex -S mix
 iex -S mix
 mix ecto.migrate
+mix deps.get
+mix deps.get
+mix test
+docker ps
+mix ecto
+rm -rf _build/ deps
+mix ecto
+mix deps.get
+mix deps.get
+mix ecto

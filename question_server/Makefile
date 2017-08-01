@@ -32,7 +32,7 @@ image.build:
 	if [ $(size) -lt 5 ]; then $(MAKE) copy-mix.lock image.build; fi
 
 image.run: image.build
-	docker run -p 4000:4000 -it $(IMAGE)
+	docker run -p 50051:50051 -d -t $(IMAGE)
 
 image.test: image.build config-gen
 	docker-compose up

@@ -7,24 +7,6 @@
 
 -define(gpb_descriptor_gpb_version, "3.27.3").
 
--ifndef('SOURCECODEINFO.LOCATION_PB_H').
--define('SOURCECODEINFO.LOCATION_PB_H', true).
--record('SourceCodeInfo.Location',
-        {path = [],                     % = 1, [int32]
-         span = [],                     % = 2, [int32]
-         leading_comments,              % = 3, string (optional)
-         trailing_comments,             % = 4, string (optional)
-         leading_detached_comments = [] % = 6, [string]
-        }).
--endif.
-
--ifndef('SOURCECODEINFO_PB_H').
--define('SOURCECODEINFO_PB_H', true).
--record('SourceCodeInfo',
-        {location = []                  % = 1, [{msg,'SourceCodeInfo.Location'}]
-        }).
--endif.
-
 -ifndef('UNINTERPRETEDOPTION.NAMEPART_PB_H').
 -define('UNINTERPRETEDOPTION.NAMEPART_PB_H', true).
 -record('UninterpretedOption.NamePart',
@@ -46,54 +28,38 @@
         }).
 -endif.
 
--ifndef('FILEOPTIONS_PB_H').
--define('FILEOPTIONS_PB_H', true).
--record('FileOptions',
-        {java_package,                  % = 1, string (optional)
-         java_outer_classname,          % = 8, string (optional)
-         java_multiple_files = false,   % = 10, bool (optional)
-         java_generate_equals_and_hash = false, % = 20, bool (optional)
-         java_string_check_utf8 = false, % = 27, bool (optional)
-         optimize_for = 'SPEED',        % = 9, {enum,'FileOptions.OptimizeMode'} (optional)
-         go_package,                    % = 11, string (optional)
-         cc_generic_services = false,   % = 16, bool (optional)
-         java_generic_services = false, % = 17, bool (optional)
-         py_generic_services = false,   % = 18, bool (optional)
-         deprecated = false,            % = 23, bool (optional)
-         cc_enable_arenas = false,      % = 31, bool (optional)
-         objc_class_prefix,             % = 36, string (optional)
-         csharp_namespace,              % = 37, string (optional)
-         javanano_use_deprecated_package, % = 38, bool (optional)
-         uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
-        }).
--endif.
-
--ifndef('FIELDOPTIONS_PB_H').
--define('FIELDOPTIONS_PB_H', true).
--record('FieldOptions',
-        {ctype = 'STRING',              % = 1, {enum,'FieldOptions.CType'} (optional)
-         packed,                        % = 2, bool (optional)
-         jstype = 'JS_NORMAL',          % = 6, {enum,'FieldOptions.JSType'} (optional)
-         lazy = false,                  % = 5, bool (optional)
+-ifndef('ENUMOPTIONS_PB_H').
+-define('ENUMOPTIONS_PB_H', true).
+-record('EnumOptions',
+        {allow_alias,                   % = 2, bool (optional)
          deprecated = false,            % = 3, bool (optional)
-         weak = false,                  % = 10, bool (optional)
          uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
         }).
 -endif.
 
--ifndef('FIELDDESCRIPTORPROTO_PB_H').
--define('FIELDDESCRIPTORPROTO_PB_H', true).
--record('FieldDescriptorProto',
+-ifndef('ENUMVALUEOPTIONS_PB_H').
+-define('ENUMVALUEOPTIONS_PB_H', true).
+-record('EnumValueOptions',
+        {deprecated = false,            % = 1, bool (optional)
+         uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
+        }).
+-endif.
+
+-ifndef('ENUMVALUEDESCRIPTORPROTO_PB_H').
+-define('ENUMVALUEDESCRIPTORPROTO_PB_H', true).
+-record('EnumValueDescriptorProto',
         {name,                          % = 1, string (optional)
-         number,                        % = 3, int32 (optional)
-         label,                         % = 4, {enum,'FieldDescriptorProto.Label'} (optional)
-         type,                          % = 5, {enum,'FieldDescriptorProto.Type'} (optional)
-         type_name,                     % = 6, string (optional)
-         extendee,                      % = 2, string (optional)
-         default_value,                 % = 7, string (optional)
-         oneof_index,                   % = 9, int32 (optional)
-         json_name,                     % = 10, string (optional)
-         options                        % = 8, {msg,'FieldOptions'} (optional)
+         number,                        % = 2, int32 (optional)
+         options                        % = 3, {msg,'EnumValueOptions'} (optional)
+        }).
+-endif.
+
+-ifndef('ENUMDESCRIPTORPROTO_PB_H').
+-define('ENUMDESCRIPTORPROTO_PB_H', true).
+-record('EnumDescriptorProto',
+        {name,                          % = 1, string (optional)
+         value = [],                    % = 2, [{msg,'EnumValueDescriptorProto'}]
+         options                        % = 3, {msg,'EnumOptions'} (optional)
         }).
 -endif.
 
@@ -134,38 +100,72 @@
         }).
 -endif.
 
--ifndef('ENUMOPTIONS_PB_H').
--define('ENUMOPTIONS_PB_H', true).
--record('EnumOptions',
-        {allow_alias,                   % = 2, bool (optional)
+-ifndef('FILEOPTIONS_PB_H').
+-define('FILEOPTIONS_PB_H', true).
+-record('FileOptions',
+        {java_package,                  % = 1, string (optional)
+         java_outer_classname,          % = 8, string (optional)
+         java_multiple_files = false,   % = 10, bool (optional)
+         java_generate_equals_and_hash = false, % = 20, bool (optional)
+         java_string_check_utf8 = false, % = 27, bool (optional)
+         optimize_for = 'SPEED',        % = 9, {enum,'FileOptions.OptimizeMode'} (optional)
+         go_package,                    % = 11, string (optional)
+         cc_generic_services = false,   % = 16, bool (optional)
+         java_generic_services = false, % = 17, bool (optional)
+         py_generic_services = false,   % = 18, bool (optional)
+         deprecated = false,            % = 23, bool (optional)
+         cc_enable_arenas = false,      % = 31, bool (optional)
+         objc_class_prefix,             % = 36, string (optional)
+         csharp_namespace,              % = 37, string (optional)
+         javanano_use_deprecated_package, % = 38, bool (optional)
+         uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
+        }).
+-endif.
+
+-ifndef('SOURCECODEINFO.LOCATION_PB_H').
+-define('SOURCECODEINFO.LOCATION_PB_H', true).
+-record('SourceCodeInfo.Location',
+        {path = [],                     % = 1, [int32]
+         span = [],                     % = 2, [int32]
+         leading_comments,              % = 3, string (optional)
+         trailing_comments,             % = 4, string (optional)
+         leading_detached_comments = [] % = 6, [string]
+        }).
+-endif.
+
+-ifndef('SOURCECODEINFO_PB_H').
+-define('SOURCECODEINFO_PB_H', true).
+-record('SourceCodeInfo',
+        {location = []                  % = 1, [{msg,'SourceCodeInfo.Location'}]
+        }).
+-endif.
+
+-ifndef('FIELDOPTIONS_PB_H').
+-define('FIELDOPTIONS_PB_H', true).
+-record('FieldOptions',
+        {ctype = 'STRING',              % = 1, {enum,'FieldOptions.CType'} (optional)
+         packed,                        % = 2, bool (optional)
+         jstype = 'JS_NORMAL',          % = 6, {enum,'FieldOptions.JSType'} (optional)
+         lazy = false,                  % = 5, bool (optional)
          deprecated = false,            % = 3, bool (optional)
+         weak = false,                  % = 10, bool (optional)
          uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
         }).
 -endif.
 
--ifndef('ENUMVALUEOPTIONS_PB_H').
--define('ENUMVALUEOPTIONS_PB_H', true).
--record('EnumValueOptions',
-        {deprecated = false,            % = 1, bool (optional)
-         uninterpreted_option = []      % = 999, [{msg,'UninterpretedOption'}]
-        }).
--endif.
-
--ifndef('ENUMVALUEDESCRIPTORPROTO_PB_H').
--define('ENUMVALUEDESCRIPTORPROTO_PB_H', true).
--record('EnumValueDescriptorProto',
+-ifndef('FIELDDESCRIPTORPROTO_PB_H').
+-define('FIELDDESCRIPTORPROTO_PB_H', true).
+-record('FieldDescriptorProto',
         {name,                          % = 1, string (optional)
-         number,                        % = 2, int32 (optional)
-         options                        % = 3, {msg,'EnumValueOptions'} (optional)
-        }).
--endif.
-
--ifndef('ENUMDESCRIPTORPROTO_PB_H').
--define('ENUMDESCRIPTORPROTO_PB_H', true).
--record('EnumDescriptorProto',
-        {name,                          % = 1, string (optional)
-         value = [],                    % = 2, [{msg,'EnumValueDescriptorProto'}]
-         options                        % = 3, {msg,'EnumOptions'} (optional)
+         number,                        % = 3, int32 (optional)
+         label,                         % = 4, {enum,'FieldDescriptorProto.Label'} (optional)
+         type,                          % = 5, {enum,'FieldDescriptorProto.Type'} (optional)
+         type_name,                     % = 6, string (optional)
+         extendee,                      % = 2, string (optional)
+         default_value,                 % = 7, string (optional)
+         oneof_index,                   % = 9, int32 (optional)
+         json_name,                     % = 10, string (optional)
+         options                        % = 8, {msg,'FieldOptions'} (optional)
         }).
 -endif.
 
