@@ -37,7 +37,7 @@ image.build:
 image.run: image.build
 	docker run -p 4000:4000 -it $(IMAGE)
 
-image.test: image.build config-gen
+image.test: image.build
 	$(MAKE) start_postgres
 	sleep 3
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix ecto.rollback --all
@@ -45,7 +45,7 @@ image.test: image.build config-gen
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix do ecto.create, ecto.migrate
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix run ./priv/repo/seed.exs
 	docker run -e DB_URL=$(DB_URL) --network=host --rm -it $(IMAGE) mix test
-	docker-compose down
+
 
 create-deploy: abort-on-uncommited-changes image.push config-gen
 	kubectl create -f deploy.yml
