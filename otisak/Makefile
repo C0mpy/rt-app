@@ -37,6 +37,7 @@ image.run: image.build
 	docker run -p 4000:4000 -it $(IMAGE)
 
 image.test: image.build config-gen
+	docker-compose build
 	docker-compose up
 
 create-deploy: abort-on-uncommited-changes image.push config-gen

@@ -17,6 +17,7 @@ WORKDIR /home/developer/prj
 
 COPY mix* ./
 COPY config/ config/
+
 RUN chown developer.developer -R /home/developer
 
 USER developer
@@ -24,6 +25,10 @@ RUN mix do local.hex --force, local.rebar --force, deps.get, compile
 
 COPY lib lib/
 COPY test test/
+
+COPY priv priv/
+COPY entry_point.sh ./
+
 USER root
 RUN chown developer.developer -R /home/developer
 

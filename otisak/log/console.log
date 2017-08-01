@@ -597,3 +597,25 @@
 2017-07-30 22:44:06.378 [info] <0.33.0> Application mime started on node nonode@nohost
 2017-07-30 22:44:06.382 [info] <0.33.0> Application plug started on node nonode@nohost
 2017-07-30 22:44:10.888 [info] <0.414.0>@h2_connection:route_frame:545 [client] Stream 1 WindowUpdate 67
+2017-07-31 11:33:52.682 [error] <0.346.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.351.0> exit with reason normal in context child_terminated
+2017-07-31 11:33:52.705 [info] <0.33.0> Application lager started on node nonode@nohost
+2017-07-31 11:33:52.710 [info] <0.33.0> Application gpb started on node nonode@nohost
+2017-07-31 11:33:52.710 [info] <0.33.0> Application exprotobuf started on node nonode@nohost
+2017-07-31 11:33:52.714 [info] <0.33.0> Application hpack started on node nonode@nohost
+2017-07-31 11:33:52.714 [info] <0.33.0> Application chatterbox started on node nonode@nohost
+2017-07-31 11:33:52.732 [info] <0.33.0> Application ranch started on node nonode@nohost
+2017-07-31 11:33:52.733 [info] <0.33.0> Application cowlib started on node nonode@nohost
+2017-07-31 11:33:52.738 [info] <0.33.0> Application cowboy started on node nonode@nohost
+2017-07-31 11:33:52.739 [info] <0.33.0> Application grpc started on node nonode@nohost
+2017-07-31 11:33:52.740 [info] <0.33.0> Application poison started on node nonode@nohost
+2017-07-31 11:33:52.746 [info] <0.33.0> Application unicode_util_compat started on node nonode@nohost
+2017-07-31 11:33:52.746 [info] <0.33.0> Application idna started on node nonode@nohost
+2017-07-31 11:33:52.748 [info] <0.33.0> Application mimerl started on node nonode@nohost
+2017-07-31 11:33:52.750 [info] <0.33.0> Application certifi started on node nonode@nohost
+2017-07-31 11:33:52.752 [info] <0.33.0> Application ssl_verify_fun started on node nonode@nohost
+2017-07-31 11:33:52.753 [info] <0.33.0> Application metrics started on node nonode@nohost
+2017-07-31 11:33:52.782 [info] <0.33.0> Application hackney started on node nonode@nohost
+2017-07-31 11:33:52.782 [info] <0.33.0> Application httpoison started on node nonode@nohost
+2017-07-31 11:33:52.784 [info] <0.33.0> Application uuid started on node nonode@nohost
+2017-07-31 11:33:52.787 [info] <0.33.0> Application mime started on node nonode@nohost
+2017-07-31 11:33:52.790 [info] <0.33.0> Application plug started on node nonode@nohost

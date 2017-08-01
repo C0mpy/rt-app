@@ -1,4 +1,4 @@
-FROM renderedtext/elixir:1.4.4
+FROM renderedtext/elixir:1.4.5
 
 
 ENV TERM=xterm
@@ -29,4 +29,3 @@ USER developer
 RUN mix compile
 
 CMD elixir --sname question_server -S mix run --no-halt
-

@@ -308,3 +308,5 @@ iex -S mix
 iex -S mix
 iex -S mix
 iex -S mix
+iex -S mix
+mix ecto.migrate

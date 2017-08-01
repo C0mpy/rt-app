@@ -12,3 +12,9 @@ services:
       - DB_URL=ecto://postgres:postgres@postgres/postgres
     depends_on:
       - postgres
+    entrypoint: sh ./entry_point.sh
+
+  question_server:
+    build: ../question_server/
+    ports:
+      - "50051:50051"
