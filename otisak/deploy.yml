@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: usvc-otisak
-        image: renderedtext/usvc_otisak:123d7c0-
+        image: renderedtext/usvc_otisak:2fc8c07-
         ports:
         - containerPort: 4000
         livenessProbe:

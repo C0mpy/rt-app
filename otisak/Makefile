@@ -26,7 +26,7 @@ console:
 	docker run -p 4000:4000 $(INTERACTIVE_SESSION) $(CMD)
 
 start_postgres:
-	docker run -d -p 5432:5432 --rm --network=host --name postgres postgres
+	docker run -d -p 5432:5432 --rm --network=host --name postgres -e POSTGRES_PASSWORD=postgres postgres
 
 image.build:
 	docker build --cache-from $(IMAGE_LATEST) -t $(IMAGE) .
